@@ -1,6 +1,6 @@
 const Web3 = require("web3")
 const web3 = new Web3("https://testnet-rpc.monad.xyz")
-const privateKey = "" // input privateKey
+const privateKey = "5072916aaabe2db9fc83782564980fe09f070284fd184a7172dcf355aeb5a731" // input privateKey
 async function sendTransaction(wallet, privateKey, contractAddress, inputData, value) {
     console.log(wallet)
     try {
